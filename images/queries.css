@@ -1,0 +1,28 @@
+@media (max-width:600px) {
+    html{
+        font-size: 70%;
+    }
+    .container{
+        width:90%;
+    }
+    .cards{
+        grid-template-columns: 1fr;
+        margin:0 auto;
+        width:90%;
+    }
+    .supervisor, .team, .karma, .calc{
+        grid-column:auto;
+        grid-row:auto;
+    }
+    .break{
+        display:none;
+    }
+    h1,h2{
+        font-size: 20px;
+    }
+    .mainpara{
+        font-size: 10px;
+        margin: auto 40px;
+    }
+   
+}
